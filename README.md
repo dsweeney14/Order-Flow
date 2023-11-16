@@ -16,7 +16,7 @@ Technical Implementation
 
 •	Concurrency Control: Implements std::mutex and std::thread to manage concurrent access to shared resources, ensuring thread safety.
 
-•	Data Structures: Utilizes std::map and std::multimap for efficient data storage and retrieval, sorting orders based on timestamps.
+•	Data Structures: Utilises std::map and std::multimap for efficient data storage and retrieval, sorting orders based on timestamps.
 
 •	Error Handling: Robust error handling mechanisms to ensure stability and reliability during runtime.
 
