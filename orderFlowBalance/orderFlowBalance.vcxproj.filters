@@ -27,9 +27,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <None Include="test.py">
-      <Filter>Source Files</Filter>
-    </None>
     <None Include="client.py">
       <Filter>Source Files</Filter>
     </None>
