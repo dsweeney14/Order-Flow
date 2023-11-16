@@ -11,10 +11,15 @@ Key Features
 4.	Normalised Metrics: Scales the order flow by the number of transactions in the given timeframe, providing a normalised view of market pressure per order, which aids in comparative analysis across varying market activities.
 
 Technical Implementation
+
 •	Language: Developed in C++, taking advantage of its efficient memory management and multi-threading capabilities.
+
 •	Concurrency Control: Implements std::mutex and std::thread to manage concurrent access to shared resources, ensuring thread safety.
+
 •	Data Structures: Utilizes std::map and std::multimap for efficient data storage and retrieval, sorting orders based on timestamps.
+
 •	Error Handling: Robust error handling mechanisms to ensure stability and reliability during runtime.
 
 Usage
+
 The application connects to a data source through a named pipe, continuously receiving and processing new order data. It maintains an updated order book in real-time, and a separate thread calculates the order flow metric. This calculation is based on orders within the last minute, providing a near real-time analysis of market trends.
