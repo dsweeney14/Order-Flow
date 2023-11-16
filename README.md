@@ -1,6 +1,7 @@
 Order Flow Analyser
 
 Overview
+
 The Order Flow Balance Analyzer is a sophisticated tool designed to monitor and analyse real-time trading data, specifically focusing on the cryptocurrency market. It efficiently processes live order data and calculates the Order Flow. This metric provides valuable insights into market dynamics, revealing the underlying buying and selling pressure within a specified timeframe.
 
 Key Features
