@@ -129,9 +129,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="handlePayload.cpp" />
     <ClCompile Include="Order.cpp" />
-    <ClCompile Include="HandlePayload.h" />
     <ClCompile Include="OrderBook.cpp" />
   </ItemGroup>
   <ItemGroup>
