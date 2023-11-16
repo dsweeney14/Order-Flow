@@ -138,9 +138,6 @@
     <None Include="test.py" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="config.txt" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="Order.h" />
     <ClInclude Include="OrderBook.h" />
   </ItemGroup>

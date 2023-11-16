@@ -35,11 +35,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="config.txt">
-      <Filter>Source Files</Filter>
-    </Text>
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="Order.h">
       <Filter>Header Files</Filter>
     </ClInclude>
